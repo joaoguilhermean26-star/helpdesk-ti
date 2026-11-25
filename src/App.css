@@ -1,0 +1,41 @@
+body {
+  background: #f1f5f9;
+  color: #1e293b;
+  min-height: 100vh;
+}
+
+.menu .nav-link {
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+.menu .nav-link.active {
+  background: #0d6efd;
+  color: white;
+}
+
+.painel {
+  max-width: 1050px;
+  margin: 40px auto;
+}
+
+.card {
+  border-color: #e2e8f0;
+  border-radius: 12px;
+}
+
+.formulario {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.descricao {
+  min-width: 180px;
+  overflow-wrap: anywhere;
+}
